@@ -1,0 +1,165 @@
+    1  sudo apt install build-essential
+    2  sudo apt install libc6
+    3  sudo apt install build-essential
+    4  sudo apt install libc6-dev
+    5  sudo apt update
+    6  sudo apt list --upgradable
+    7  py
+    8  python3
+    9  sudo apt install build-essential
+   10  sudo apt install libc6-dev=2.35-0ubuntu3.1
+   11  sudo apt install libc6-dev=2.35-0ubuntu3
+   12  sudo apt update
+   13  sudo apt install build-essential
+   14  gcc
+   15  sudo -v
+   16  sudo
+   17  sudo version
+   18  help
+   19  sudo apt install libc6=2.31-0ubuntu9.2
+   20  sudo apt install build-essential
+   21  sudo apt install libc6=2.35-0ubuntu3
+   22  sudo apt install build-essential
+   23  gcc --v
+   24  gcc --version
+   25  sudo apt upgrade
+   26  ls
+   27  cd
+   28  cd Public
+   29  ls
+   30  mkdir os_course
+   31  cd os_course/
+   32  mkdir week1
+   33  cd week1/
+   34  ls
+   35  cd ..
+   36  ls
+   37  cd week1/
+   38  ls -l
+   39  cd ..
+   40  ls -l
+   41  cd week1/
+   42  cd test.txt
+   43  touch test.txt
+   44  ls
+   45  cut test.txt 
+   46  cut "asd"
+   47  cut asd
+   48  cut --help
+   49  cd text.txt
+   50  ls
+   51  cd test
+   52  who am i
+   53  whoami
+   54  vi test.txt 
+   55  cd ..
+   56  ls
+   57  cd Public/
+   58  cd os_course/
+   59  cd week1/
+   60  find /proc -name "driver"
+   61  >error.txt
+   62  2> error.txt
+   63  celar
+   64  clear
+   65  find /proc -name "driver"
+   66  find /proc -name "driver" 2> error.txt
+   67  ls
+   68  error.txt
+   69  cut error.txt
+   70  cat error.txt
+   71  cat test.txt
+   72  gedit test.txt
+   73  cat test.txt
+   74  vi test.txt
+   75  cat test.txt
+   76  nano test.txt
+   77  ls
+   78  cat test.txt
+   79  find /usr/bin -name "gcc" 5> ex1.txt | sort -r | tail -n 5
+   80  ls
+   81  cat ex1.txt
+   82  clear
+   83  vi example.sh
+   84  example
+   85  example.sh
+   86  ./example.sh
+   87  sudo ./example.sh
+   88  sh example.sh 
+   89  ls
+   90  cat Viktor 
+   91  find /usr/bin -name "gcc"
+   92  find /usr/bin -name ".gcc"
+   93  find /usr/bin -name "gcc"
+   94  find --help
+   95  find /usr/bin -fstype gcc
+   96  sleep 1
+   97  sleep 10
+   98  asdfsdfsjfa
+   99  fasdf
+  100  gag
+  101  find /usr/bin -name "gcc"
+  102  find /usr/bin -fstype "gcc"
+  103  find --help
+  104  find /usr/bin -fstype "gcc"
+  105  find ~/usr/bin -fstype "gcc"
+  106  ls
+  107  cd Downloads/
+  108  sudo dpkg -i discord-0.0.19.deb
+  109  find -name "gcc"
+  110  find -name "*gcc*"
+  111  cd ..
+  112  cd home
+  113  cd ~
+  114  ls
+  115  cd Documents/
+  116  ls
+  117  cd ..
+  118  cd Public/
+  119  ls
+  120  cd os_course/
+  121  cd week1/
+  122  find /usr/bin -name '*gcc*'
+  123  find /usr/bin -name '*gcc*' | sort -r
+  124  find /usr/bin -name '*gcc*' | sort -r | >5
+  125  find /usr/bin -name '*gcc*' | sort -r | >5 primer.txt
+  126  find /usr/bin -name '*gcc*' | sort -r | 5> primer.txt
+  127  cat primer.txt
+  128  find /usr/bin -name '*gcc*' | sort -r | 5> primer.txt
+  129  find /usr/bin -name '*gcc*' | sort -r | > primer.txt
+  130  find /usr/bin -name '*gcc*' | sort -r > primer.txt
+  131  find /usr/bin -name '*gcc*' | sort -r 5> primer.txt
+  132  cat primer.txt
+  133  find /usr/bin -name '*gcc*' | sort -r > primer.txt
+  134  find /usr/bin -name '*gcc*' | sort -r >5 primer.txt
+  135  find /usr/bin -name '*gcc*' | sort -r -head 5 > primer.txt
+  136  sort --help
+  137  find /usr/bin -name '*gcc*' | sort -r 5> primer.txt
+  138  find /usr/bin -name '*gcc*' | sort -r >5 primer.txt
+  139  find /usr/bin -name '*gcc*' | sort -r > primer.txt
+  140  find /usr/bin -name '*gcc
+  141  touch ex1.sh
+  142  nano ex1.sh
+  143  sh ex1.sh
+  144  find /usr/bin -name '*gcc*' | sort -r
+  145  find /usr/bin -name '*gcc*' | tail -n 5 | sort -r
+  146  find /usr/bin -name '*gcc*
+  147  '
+  148  find /usr/bin -name '*gcc*'
+  149  ды
+  150  сдуфк
+  151  clear
+  152  l
+  153  clear
+  154  ls
+  155  cd ..
+  156  cd week1/
+  157  car ex1.txt
+  158  cat ex1.txt
+  159  touch 1.txt
+  160  nano 1.txt
+  161  cat 1.txt
+  162  remove 1.txt
+  163  rm 1.txt
+  164  ls
+  165  history > ex2.txt
