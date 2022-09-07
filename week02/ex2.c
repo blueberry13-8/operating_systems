@@ -10,8 +10,10 @@ int main(){
         n++;
         inp = getc(stdin);
     }
+    putc('"', stdout);
     for (int i = n - 1; i >= 0; i--){
         putc(s[i], stdout);
     }
+    putc('"', stdout);
     return 0;
 }
