@@ -1,38 +1,43 @@
 #include <stdio.h>
 #include <math.h>
+#include <string.h>
 
-long long convert(int s, int t, long long number){
-	int digit_amount = log10(number) + 1;
+void convert(int s, int t, char number[]){
+	if (s < 2 || s > 10 || t < 2 || t > 10){
+	    printf("cannot convert!");
+		return;
+	}
+	int n = strlen(number);
 	long long num10 = 0, power = 1;
-	for (int i = 0; i < digit_amount; i++){
-		int digit = number % 10;
-		number /= 10;
+	for (int i = n - 1; i >= 0; i--){
+		int digit = number[i] - '0';
 		num10 += digit * power;
 		power *= s;
-		if (digit >= s){
-			return -1;
+		if (digit < 0 || digit >= s){
+			printf("cannot convert!");
+			return;
 		}
 	}
-	long long result = 0;
-	number = 1;
+	char result[1000] = "";
+	n = 0;
 	while (num10 >= t){
-		result += (num10 % t) * number;
+		result[n] = (num10 % t) + '0';
 		num10 /= t;
-		number *= 10;
+		n++;
 	}
-	result += num10 * number;
-	return result;
+	result[n] = num10 + '0';
+	for (int i = 0; i < strlen(result) / 2; i++){
+	    char temp = result[i];
+	    result[i] = result[strlen(result) - 1 - i];
+	    result[strlen(result) - 1 - i] = temp;
+	}
+	printf("%s", result);
 }
 
 int main(){
     int s, t;
-    long long number;
-    scanf("%lld %d %d", &number, &s, &t);
-    long long result = convert(s, t, number);
-    if (result != -1){
-	    printf("%lld", result);
-	} else{
-		printf("cannot convert!");
-	}
+    char number[1000] = "";
+    scanf("%s %d %d", number, &s, &t);
+    convert(s, t, number);
     return 0;
 }
