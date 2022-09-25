@@ -1,0 +1,14 @@
+// The results of the first run for 3 fork calls
+The first run fork 3 times in the main process. The first child will call to fork 2 times.
+The second child will call to fork 1 times. And the last child call to fork 0 times.
+The same situation for children of first child of main. And for every child.
+Therefore, main process will have 2^3 children.
+
+
+// The results of the second run for 5 fork calls
+The same situation with children for this run. But main process will have 2^5 children.
+
+
+// The difference
+Number of children. First run - 8 processes, second run - 32 processes.
+
