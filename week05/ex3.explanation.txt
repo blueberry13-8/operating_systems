@@ -1,0 +1,14 @@
+We can see that program execute faster with more threads.
+
+I had 9.65 seconds with one thread(on my PC)
+I had 6.12 seconds with two thread(on my PC)
+I had 3.87 seconds with four thread(on my PC)
+I had 2.94 seconds with ten thread(on my PC)
+I had 2.36 seconds with hundred thread(on my PC)
+
+So it's faster with more threads. But in the end we see little growth of speed.
+
+It happened bcause of number of threads on my CPU.
+
+Therefore, if we need the best perfomance we should find some happy medium 
+between number of threads in program and number of threads in CPU.
