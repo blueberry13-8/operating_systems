@@ -1,0 +1,5 @@
+We can see that program execute faster with more threads as well as ex3.
+
+It's faster with more threads. But in the end we see little growth of speed.
+
+To compare, ex3 was a little bit slower, but with 100 threads they have almost the same result.
