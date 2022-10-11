@@ -1,0 +1,3 @@
+It's better than FCFS, but not always. Sometimes they have the same result.
+SJN have better processes' copmletion time becaouse processes have smaller wait time than in FCFS.
+Therefore, if more processes have smaller wait time then processes complete faster.

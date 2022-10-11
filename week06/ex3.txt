@@ -1,0 +1,3 @@
+I tested RR, FCFS and SJN on different samples, and obtain that RR has worse average metrics.
+For specific quantum we can get good enough result, but it's still worse than FCFS and SJN results.
+Therefore, we can use just SJN for the best average metrics.
