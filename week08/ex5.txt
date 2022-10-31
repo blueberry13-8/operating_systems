@@ -1,0 +1,5 @@
+Physical address: the real address in real memory device.
+Virtual address: address which is provided by OS for every program. Virtual address is mapped to physical address. MMU chip gets virtual address and gives 
+physical address.
+
+The difference between them is reality :)
