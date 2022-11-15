@@ -1,0 +1,11 @@
+-rw-rw-rw- 1 victor victor 26 ноя 15 22:34 _ex3.txt
+-rwxrw-rwx 1 victor victor 26 ноя 15 22:34 _ex3.txt
+-rwxrwxrwx 1 victor victor 26 ноя 15 22:34 _ex3.txt
+
+Answers:
+Each digit declare the permissions for each category.
+The first one for user. Second for group. The last for other.
+For instance if 3 for user then he can write and execute but not read, because in binary representation 3 is 011(rwx).
+660 : -rw-rw----
+775 : -rwxrwxr-x
+777 : -rwxrwxrwx

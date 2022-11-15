@@ -1,0 +1,10 @@
+../week01/file.txt
+../week10/_ex2.txt
+total 24
+-rw-rw-r-- 3 victor victor   7 ноя 12 17:57 _ex1_1.txt
+-rw-rw-r-- 3 victor victor   7 ноя 12 17:57 _ex1_2.txt
+-rw-rw-r-- 1 victor victor 160 ноя 12 17:57 ex1.sh
+-rw-rw-r-- 3 victor victor   7 ноя 12 17:57 _ex1.txt
+-rw-rw-r-- 1 victor victor 366 ноя 15 20:32 ex2.sh
+-rw-rw-r-- 1 victor victor  38 ноя 15 20:32 ex2.txt
+-rw-rw-r-- 1 victor victor   0 ноя 15 13:06 ex3.sh
