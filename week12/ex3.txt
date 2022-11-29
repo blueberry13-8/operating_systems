@@ -1,0 +1,10 @@
+Shortcuts:
+	P + I = I passed the Exam!
+	C + A + P = Get some cappuccino!
+	Q + W + E + R = Whoever moves first is a good person.
+I passed the Exam!
+I passed the Exam!
+Get some cappuccino!
+Get some cappuccino!
+Whoever moves first is a good person.
+Whoever moves first is a good person.
