@@ -56,7 +56,7 @@
     f000-f07f : 0000:01:00.0
 
 dma1 - Direct Memory Accsess Controller. 
-Allow for quick data transfers between memory and memory as well as between peripherals and peripherals.
+Allow for quick data transfers between memory and memory as well as between peripherals and memory.
 DMA can do it without any CPU actions. 
 
 pic1 - Peripheral Interface Controller.
