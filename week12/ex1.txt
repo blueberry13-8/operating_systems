@@ -62,4 +62,4 @@ DMA can do it without any CPU actions.
 pic1 - Peripheral Interface Controller.
 PIC improves peripheral device I/O operations by isolating I/O-based applications and data from the CPU.
 
-timer1 - System timer. Perform system interapts for I/O devices.
+timer1 - System timer. Perform system interrupts for I/O devices.
