@@ -1,0 +1,11 @@
+When we should use:
+1) Deadlock Avoidness:
+    We need to avoid all deadlocks, we must know all resourse requirements in advance, the number 
+    of resourse's allocation must be fixed.
+2) Deadlock prevention:
+    We need to avoid all deadlocks, system must have strict rules about resourse managing. For instance,
+        "Avoid assigning a resource unless absolutely necessary, and try to
+        make sure that as few processes as possible may actually claim the
+        resource."
+3) Recovery:
+    We don't care about ill effects(of killing the processes) or preemption losses, or we know in advance about them.
